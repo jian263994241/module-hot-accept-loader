@@ -1,0 +1,29 @@
+{
+  "name": "@jianlee/module-hot-accept-loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jian263994241/module-hot-accept-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "loader",
+    "hot",
+    "reload",
+    "accept"
+  ],
+  "author": "jianli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jian263994241/module-hot-accept-loader/issues"
+  },
+  "homepage": "https://github.com/jian263994241/module-hot-accept-loader#readme",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
