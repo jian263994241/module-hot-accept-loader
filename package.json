@@ -1,7 +1,7 @@
 {
-  "name": "@jianlee/module-hot-accept-loader",
+  "name": "module-hot-accept-loader",
   "version": "1.0.0",
-  "description": "",
+  "description": "add 'module.hot.accpet()' to entry files",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
