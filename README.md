@@ -1,4 +1,4 @@
-# module-hot-accept-loader
+# hmr-accept-loader
 
 add 'module.hot.accpet()' to entry files
 
@@ -6,7 +6,7 @@ add 'module.hot.accpet()' to entry files
 ## Installation
 
 ```
- npm install module-hot-accept-loader --dev-save
+ npm install hmr-accept-loader --dev-save
 ```
 
 
@@ -19,7 +19,7 @@ add 'module.hot.accpet()' to entry files
   enforce: 'post',
   use: [
     {
-      loader: require.resolve('module-hot-accept-loader')
+      loader: require.resolve('hmr-accept-loader')
     }
   ]
 }
