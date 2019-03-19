@@ -1,6 +1,9 @@
 # hmr-accept-loader
 
-add 'module.hot.accpet()' to entry files
+Need webpack@4.
+
+Add 'module.hot.accpet()' to entry files
+
 
 
 ## Installation

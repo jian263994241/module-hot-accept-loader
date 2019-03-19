@@ -7,7 +7,7 @@ const getEntry = (entry) => {
   }
 
   if (typeof entry === 'object' && !Array.isArray(entry)) {
-    return () =>  Promise.resolve(entry)
+    return () =>  Promise.resolve(_.flattenDeep(_.values(entry)))
   }
 
   return () => Promise.resolve(entry);
