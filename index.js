@@ -1,6 +1,5 @@
 const _ = require('lodash');
 
-
 const getEntry = (entry) => {
   if (typeof entry === 'function') {
     return () => Promise.resolve(entry()).then(getEntry);
@@ -17,8 +16,7 @@ const injectText = (source) => {
   if (/\bmodule.hot\b/.test(source)) {
     return source;
   }
-  return `
-${source}
+  return source + `
 if(module.hot){
   module.hot.accept()
 }
