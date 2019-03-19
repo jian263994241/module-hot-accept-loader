@@ -1,4 +1,4 @@
-# module-hot-accept-loader
+# hmr-accept-loader
 
 Need webpack@4.
 
@@ -9,7 +9,7 @@ Add 'module.hot.accpet()' to entry files
 ## Installation
 
 ```
- npm install module-hot-accept-loader --dev-save
+ npm install hmr-accept-loader --dev-save
 ```
 
 
