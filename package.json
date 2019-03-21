@@ -1,6 +1,6 @@
 {
   "name": "hmr-accept-loader",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "add 'module.hot.accpet()' to entry files",
   "main": "index.js",
   "scripts": {
